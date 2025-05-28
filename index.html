@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="center-form">
+        <h1>Registration Form</h1>
+        <br>
+        <a href="https://www.google.com/" target="_blank">click hrre</a>
+        <form id="registerForm">
+            <label for="fullname">Full Name:</label><br>
+            <input type="text" id="fullname" name="fullname" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password" required><br><br>
+
+            <label for="confirm_password">Confirm Password:</label><br>
+            <input type="password" id="confirm_password" name="confirm_password" required><br><br>
+
+            <label for="dob">Date of Birth:</label><br>
+            <input type="date" id="dob" name="dob"><br><br>
+
+            <label for="gender">Gender:</label><br>
+            <select id="gender" name="gender">
+                <option value="">Select</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select><br><br>
+
+            <label>
+                <input type="checkbox" name="terms" required>
+                I agree to the terms and conditions
+            </label><br><br>
+
+            <a href="#" id="registerBtn" class="register-btn">Register</a>
+        </form>
+        <div id="registerMessage" style="text-align:center; margin-top:10px;"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
